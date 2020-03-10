@@ -1,7 +1,7 @@
 import bpy
 
 class MarkerList(bpy.types.Operator):
-    """Tooltip"""
+    """Timeline Markers list"""
     bl_idname = "marker.list"
     bl_label = "Marker List"
 

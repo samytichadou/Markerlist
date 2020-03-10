@@ -1,7 +1,7 @@
 import bpy
 
 class GoToMarker(bpy.types.Operator):
-    """Tooltip"""
+    """Go to specific Timeline Marker frame"""
     bl_idname = "marker.go_to"
     bl_label = "Go to Marker"
     bl_options = {'INTERNAL', 'UNDO'}

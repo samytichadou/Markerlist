@@ -1,7 +1,7 @@
 import bpy
 
 class RemoveSelectedMarker(bpy.types.Operator):
-    """Tooltip"""
+    """Remove selected Timeline Markers"""
     bl_idname = "marker.remove_selected"
     bl_label = "Remove Selected Marker"
     bl_options = {'INTERNAL', 'UNDO'}

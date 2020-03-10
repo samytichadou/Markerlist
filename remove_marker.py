@@ -1,7 +1,7 @@
 import bpy
 
 class RemoveMarker(bpy.types.Operator):
-    """Tooltip"""
+    """Remove specific Timeline Marker"""
     bl_idname = "marker.remove"
     bl_label = "Remove Marker"
     bl_options = {'INTERNAL', 'UNDO'}
