@@ -15,6 +15,6 @@ class RemoveSelectedMarker(bpy.types.Operator):
     def execute(self, context):
         scn = context.scene
         for marker in scn.timeline_markers:
-            if marker.selected:
+            if marker.select:
                 scn.timeline_markers.remove(marker)
         return {'FINISHED'}
