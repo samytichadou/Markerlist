@@ -59,9 +59,15 @@ def register():
     for cls in classes :
         register_class(cls)
 
+    ### MENU ###
+    bpy.types.TIME_MT_marker.prepend(marker_list_function)
+
 def unregister():
     
     ### OPERATORS ###
     from bpy.utils import unregister_class
     for cls in reversed(classes) :
         unregister_class(cls)
+
+    ### MENU ###
+    bpy.types.TIME_MT_marker.remove(marker_list_function)

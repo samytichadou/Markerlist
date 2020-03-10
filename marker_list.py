@@ -62,3 +62,6 @@ class MarkerList(bpy.types.Operator):
         
     def execute(self, context):
         return {'FINISHED'}
+
+def marker_list_function(self, context):
+    self.layout.operator('marker.list')
