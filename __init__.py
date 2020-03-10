@@ -25,8 +25,8 @@ bl_info = {
  "blender": (2, 82, 0),  
  "location": "Timeline",  
  "description": "Utilities to help with Timeline Markers handling",  
-  "wiki_url": "https://github.com/samytichadou/fcurve_helper",  
- "tracker_url": "https://github.com/samytichadou/fcurve_helper/issues/new",  
+  "wiki_url": "https://github.com/samytichadou/Markerlist",  
+ "tracker_url": "https://github.com/samytichadou/Markerlist/issues/new",  
  "category": "Animation"}
 
 
