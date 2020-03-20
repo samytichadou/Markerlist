@@ -62,6 +62,7 @@ def register():
     ### MENU ###
     bpy.types.TIME_MT_marker.prepend(marker_list_function)
     bpy.types.SEQUENCER_MT_marker.prepend(marker_list_function)
+    bpy.types.DOPESHEET_MT_marker.prepend(marker_list_function)
 
 def unregister():
     
@@ -73,3 +74,5 @@ def unregister():
     ### MENU ###
     bpy.types.TIME_MT_marker.remove(marker_list_function)
     bpy.types.SEQUENCER_MT_marker.remove(marker_list_function)
+    bpy.types.DOPESHEET_MT_marker.remove(marker_list_function)
+    
